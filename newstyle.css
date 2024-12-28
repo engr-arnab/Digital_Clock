@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    height: 60vh;
+    width: 50vw;
+    border: 10px solid white;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.box1 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.box2 {
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.datebox {
+    height: 60%;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.timebox {
+    height: 60%;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.same {
+    height: 100%;
+    width: 33%;
+    /* border: 1px solid black; */
+}
+
+@media screen and (orientation: portrait) {
+    main {
+        width: 100%;
+    }
+
+    .timebox {
+        width: 100%;
+    }
+
+    .datebox {
+        width: 100%;
+    }
+}
+
+.styling {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.time {
+    font-size: xxx-large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.date {
+    height: 100%;
+    width: 20%;
+    /* background-color: bisque; */
+
+}
+
+.month {
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+    font-size: xxx-large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.year {
+    height: 100%;
+    width: 30%;
+    /* background-color: chartreuse; */
+}
+
+.date{
+    font-size: xxx-large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 5px white solid; */
+}
+
+.year{
+    font-size: xxx-large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timebox{
+    /* border: 3px white solid; */
+    /* border-radius: 10px; */
+
+}
+.datebox{
+    /* border: 3px white solid; */
+    /* border-radius: 10px; */
+
+}
